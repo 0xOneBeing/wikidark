@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "LinuxLibertineRegular";
+  src: url(./assets/font/LinLibertine_R.ttf);
+}
+
 .App {
   text-align: center;
 }
