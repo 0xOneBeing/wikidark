@@ -42,4 +42,28 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "LinuxLibertineReguler" !important;
+  font-weight: 400;
+}
+
+p.words {
+  font-size: calc(1em * 0.875);
+}
+
+.wd-text {
+  font-size: 12.8px;
+}
+
+/* ----------------------------------- */
+.nav-link {
+  color: #3366cc;
+}
+.nav-link:hover {
+  color: #3366cc;
+  text-decoration: underline;
+}
+.three-dots, .three-dots:hover, .three-dots:active {
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
 }

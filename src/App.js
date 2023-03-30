@@ -1,4 +1,7 @@
 // import logo from './logo.svg';
+
+import Header from './components/Header';
+
 import './App.css';
 
 function App() {
@@ -19,10 +22,9 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <div className="">
+    <div className="container-fluid">
       <section>
-        <h1><span>Sunday</span></h1>
-        <p>Lorem ipsum sit dolor...</p>
+        <Header />
       </section>
     </div>
   );
