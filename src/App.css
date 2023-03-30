@@ -1,9 +1,4 @@
-@font-face {
-  font-family: "LinuxLibertineRegular";
-  src: url(./assets/font/LinLibertine_R.ttf);
-}
-
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -19,14 +14,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -40,4 +33,13 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+@font-face {
+  font-family: "LinuxLibertineRegular";
+  src: url(./assets/font/LinLibertine_R.ttf);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "LinuxLibertineReguler" !important;
 }
